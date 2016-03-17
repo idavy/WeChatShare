@@ -1,0 +1,6 @@
+framework module WeChatShare {
+  umbrella header "WeChatShare-umbrella.h"
+
+  export *
+  module * { export * }
+}

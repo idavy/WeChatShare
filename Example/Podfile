@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'WeChatShare_Example', :exclusive => true do
+  pod 'WeChatShare', :path => '../'
+end
+
+target 'WeChatShare_Tests', :exclusive => true do
+  pod 'WeChatShare', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
